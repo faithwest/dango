@@ -1,53 +1,59 @@
-body {
-    font-family: Arial, sans-serif;
+body, ul {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    background: #3a6386;
 }
-
 header {
-    background-color: #333;
+    background-color: #1b5e96;
     color: #fff;
     text-align: center;
-    padding: 10px;
-}
-
-.movie-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
 }
 
-.movie-poster img {
+
+.movie-details {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+
+#movie-poster {
     max-width: 100%;
 }
 
-.movie-info {
-    flex: 1;
-    padding: 10px;
-}
 
-.movie-list {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.movie-list ul {
-    list-style: none;
-}
-
-.movie-list li {
-    cursor: pointer;
-    margin: 10px;
-    font-weight: bold;
-}
-
-#buy-button {
-    background-color: #333;
+#buy-ticket {
+    background-color: #0074d9;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    display: none;
+    font-weight: bold;
+}
+
+.movie-list {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.movie-list ul {
+    padding: 0;
+}
+
+.movie-list li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.movie-list li:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px 5px;
+    margin: 6px 6px;
 }
