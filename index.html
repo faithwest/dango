@@ -3,46 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlatDango</title>
+    <title>Flatdango - Movie Details</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>FlatDango</h1>
+        <h1>Flatdango</h1>
     </header>
 
     <div class="movie-details">
-        <img id="movie-poster" src="" alt="Movie Poster">
-        <h2 id="movie-title">Movie Title</h2>
-        <p id="movie-runtime">Runtime: </p>
-        <p id="movie-showtime">Showtime: </p>
-        <p id="available-tickets">Available Tickets: </p>
-        <button id="buy-ticket">Buy Ticket</button>
+        <div class="movie-poster">
+            <img id="movie-poster-img" alt="Movie Poster">
+        </div>
+        <div class="movie-info">
+            <h2 id="movie-title">Title:</h2>
+            <p id="movie-runtime">Runtime:</p>
+            <p id="movie-showtime">Showtime:</p>
+            <p id="movie-tickets">Available Tickets:</p>
+            <button id="buy-tickets">Buy Tickets</button>
+        </div>
     </div>
 
-    <section class="movie-list">
-        <h2>Movie List</h2>
+    <div class="movie-list">
+        <h2>All Movies</h2>
         <ul id="films">
-                <li id="movie-1">The Giant Gila Monster</li>
-                <li id="movie-2">Manos: The Hands Of Fate</li>
-                <li id="movie-3">Time Chasers</li>
-                <li id="movie-4">The Touch Of Satan</li>
-                <li id="movie-5">Santa Claus Conquers The Martians</li>
-                <li id="movie-6">Track Of The Moon Beast</li>
-                <li id="movie-7">The Skydivers</li>
-                <li id="movie-8">The Killer Shrews</li>
-                <li id="movie-9">Project Moon Base</li>
-                <li id="movie-10">The Giant Spider Invasion</li>
-                <li id="movie-11">Catalina Caper</li>
-                <li id="movie-12">Secret Agent Super Dragon</li>
-                <li id="movie-13">Wild Rebels</li>
-                <li id="movie-14">Danger: Diabolik</li>
-                <li id="movie-15">Village Of The Giants</li>
-            
+            <li id="movie-1">The Giant Gila Monster</li>
+            <li id="movie-2">Manos: The Hands Of Fate</li>
+            <li id="movie-3">Time Chasers</li>
+            <li id="movie-4">The Touch Of Satan</li>
+            <li id="movie-5">Santa Claus Conquers The Martians</li>
+            <li id="movie-6">Track Of The Moon Beast</li>
+            <li id="movie-7">The Skydivers</li>
+            <li id="movie-8">The Killer Shrews</li>
+            <li id="movie-9">Project Moon Base</li>
+            <li id="movie-10">The Giant Spider Invasion</li>
+            <li id="movie-11">Catalina Caper</li>
+            <li id="movie-12">Secret Agent Super Dragon</li>
+            <li id="movie-13">Wild Rebels</li>
+            <li id="movie-14">Danger: Diabolik</li>
+            <li id="movie-15">Village Of The Giants</li>
         </ul>
+    </div>
 
-    <script src="index.js">
-        
-    </script>
+    <script src="src/index.js"></script>
 </body>
 </html>
